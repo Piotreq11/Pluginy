@@ -1,0 +1,7 @@
+name: SnowStats
+version: 0.0.7
+main: me.piotreq.snowstats.Main
+author: Piotreq
+api-version: 1.13
+commands:
+  sprawdz:

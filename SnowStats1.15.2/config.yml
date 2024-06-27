@@ -1,0 +1,9 @@
+type: mysql
+host-mysql: "localhost"
+port-mysql: "3306"
+user-mysql: "root"
+database-mysql: "serwer"
+pass-mysql: ""
+
+exp_stone: 100
+exp_drewno: 100
