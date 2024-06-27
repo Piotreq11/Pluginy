@@ -1,0 +1,15 @@
+name: SnowAuth
+version: 1.0
+main: me.piotreq.snowauth.Main
+author: Piotreq
+api-version: 1.13
+descryption: Plugin umozliwiajacy logowanie sie przy pomocy bazy danych
+commands:
+  register:
+    aliases: [reg, rejestruj, zarejestruj]
+  login:
+    aliases: [l, loguj, zaloguj]
+  unregister:
+    aliases: [unreg, odrejestruj]
+  changepassword:
+    aliases: [changepass, zmienhaslo]

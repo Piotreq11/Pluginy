@@ -1,0 +1,43 @@
+error:
+  user-null: "&cNie znaleziono takiego uzytkownika w bazie danych"
+auth-cmd:
+  no-perm: "&cNie masz uprawnienia do tej komedy!"
+  usage-unreg: "&6Poprawne uzycie: &6/auth unregister <nick>"
+  unregistered: "&6Odrejstrowano gracza: &6{NICK}"
+  usage-changepass: "&6Poprawne uzycie: /auth changepass <nick> <haslo>"
+  pwd-changed: "&7Haslo dla gracza: &6{NICK} &7zostalo zmienione na: &6{PASS}"
+  unknown-arg: "&6Uzycie: /auth changepass/unregister"
+changepass-cmd:
+  usage: "&6Poprawne uzycie: /changepassword <stare haslo> <nowe haslo>"
+  wrong-pass:  "&7Haslo ktore podales nie zgadza sie z tym ktore masz do konta!"
+  changed: "&7Poprawnie zmieniono haslo do twojego konta!"
+login-cmd:
+  usage: "&6Poprawne uzycie: /login <haslo>"
+  not-found: "&7Nie masz konta zarejstruj sie!"
+  already-logged: "&7Jestes juz zalogowany!"
+  logged-in: "&7Zostales zalogowany!"
+  wrong-pass: "&7Podane haslo nie zgadza sie z tym do konta!"
+  logged-in-title: ""
+  logged-in-subtitle: "&aZalogowano!"
+register-cmd:
+  has-account: "&7Jestes juz zarejstrowany!"
+  already-logged: "&7Jestes juz zalogowany!"
+  usage:
+  - '&6Poprawne uzycie: /register <captcha> <haslo> <haslo>'
+  - '&7Twoj kod captcha: &6{CAPTCHA}'
+  pass-not-match: " &7Hasla nie zgadzaja sie!" 
+  captcha-wrong: " &7Podany kod captcha nie zgadza sie z: {CAPTCHA}"
+  registered: " &7Zarejstrowano i zalogowano!"
+  registered-title: ""
+  registered-subtitle: "&7Zarejstrowano i zalogowano"
+unregister-cmd:
+  usage: "&6Poprawne uzycie: /unregister <haslo>"
+  wrong-pass: "&7Podane haslo nie zgadza sie z twoim kontem!"
+  unregistered: "&7Odrejstrowano!"
+error:
+  not-logged: "&7Nie jestes zalogowany"
+join:
+  register-title: ""
+  register-sub-title: "&7Zarejstruj sie!"
+  login-title: ""
+  login-sub-title: "&7Zaloguj sie!"
